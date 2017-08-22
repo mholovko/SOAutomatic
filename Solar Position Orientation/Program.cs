@@ -6,6 +6,7 @@ namespace SOAutomatic
 {
     public static class Program
     {
+        // Forms.
         public static MainForm MainForm;
         public static ConsoleForm ConsoleForm;
         public static SettingsForm SettingsForm;
