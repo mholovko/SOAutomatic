@@ -22,7 +22,7 @@ namespace SOAutomatic
             SettingsForm = new SettingsForm();
 
             MainForm.СonsoleDelegate = ConsoleForm.WriteConsoleBox;
-
+            // TODO: refactor through assemblies
             using (System.IO.StreamWriter file = new System.IO.StreamWriter("version.txt"))
             {
                 file.Write(Assembly.GetExecutingAssembly().GetName().Version);
